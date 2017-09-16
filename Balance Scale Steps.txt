@@ -1,0 +1,13 @@
+Step 1.  Machine Learning Tests without any missing value:
+	-Turning the class label type from string to int
+	-Making test with RapidMiner and Weka
+	-Maintaining the python code including machine learning algorithms and finding out which algorithm has the best accuracy
+
+Step 2.  Recovery of the missing values using ML algorithms:
+	-Initially, the data has no missing value, therefore I'm making our missing values by myself. It doesn't make any sense to remove randomly some values on the class column therefore I remove some rows on one of the feature columns. For example we have A, B, C and D as columns. First, I create some missing values on A and make predictions by using ML algorithms. And this process goes on the same on the other columns.
+	-When creating missing values, I don't lose our real data so that I can calculate the accuracy.
+	-In the end, I determine the best algorithm , in other words the algorithm that has the highest accuracy score.
+
+Step 3. Compare organic data with synthetic data
+	-I choose the column which has the highest accuracy when using ML algorithms to fill their missing values; so that we have a synthesised data set.
+	-
