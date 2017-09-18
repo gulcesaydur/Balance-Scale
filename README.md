@@ -1,3 +1,3 @@
-# Balanced Scale
+# Balance Scale
 
 http://archive.ics.uci.edu/ml/datasets/balance+scale
